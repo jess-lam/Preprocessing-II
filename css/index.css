@@ -168,6 +168,26 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+  border-bottom: 2px dashed #C0C0C0;
+  height: 80px;
+}
+.nav-bar .navigation nav a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  margin-left: 30px;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -224,4 +244,26 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+header {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.fun-bus-img {
+  padding-bottom: 20px;
+}
+.btn {
+  border: 1px solid #C0C0C0;
+  height: 42px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color: white;
+  background: teal;
+  border-radius: 12px;
 }
