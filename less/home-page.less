@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    }
 
    
     
@@ -58,17 +59,27 @@
       margin-bottom: 30px;
     }
   }
-}// home
+
+  // home
 header {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
   border-bottom: 2px dashed @navigation-border;
+  @media @mobile {
+    max-width: 500px;
+  }
 }
 
 .fun-bus-img {
   padding-bottom: 20px;
+  @media @mobile {
+    width: 100%;
+    height: 170px;
+  }
 }
 
-.btn(center, center);
+.btn {
+  .btn-style(center, center);
+}
